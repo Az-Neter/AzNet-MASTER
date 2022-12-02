@@ -14,6 +14,8 @@ Chat = Local p2p Sub-Ghz, IR and NFC wireless hardware interface system to share
 
 (Hatching) Protocols = NFC-A tag consisting of SAQ (1 byte), ATQA (2 byte) and UUID (4 byte) in Hexadecimal, used to dictate how a .zeed functions at its core level while in every stage beside ZEED
 
+Memory NFC = The actual physical (or emulated) tag that holds a Protocol.
+
 Name = Set by .zeed on hatch. Permanent and unchangeable. Uses Protocol to create. Should be mostly unique even with different protocols.
 
 Name.zeed = The entity itself. User-editable hexadecimal file with some uneditable parts (corrupts if edited). Contains all info about a .zeed besides it's Level
