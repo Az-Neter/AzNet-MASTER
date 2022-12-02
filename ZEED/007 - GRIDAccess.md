@@ -17,5 +17,7 @@ A .zeed that is on GRID while its user is offline has its Hatching Protocols ree
 
 .zeed that get lost because of this are sent beyond the Blackwall to live out their remaining existence. (done by admins or hunter players, NOT autonomously)
 
+When their player logs back in before moved beyond the Blackwall, they try to path back to the player as best as able (meaning they can easily get trapped or blocked by other players)
+
 .zeed CAN eat eachother on grid, if their protocol allows for it. They can also engage in any type of combat their training data normally allows.
 
