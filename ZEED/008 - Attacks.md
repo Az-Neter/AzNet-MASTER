@@ -29,14 +29,17 @@ Equation - Read Below
 Physical bit flips attacks are A vs B vs C against enemy Defend.  
 Bit flips are identified visually by their symbol (Circle for A, Triangle for B, Square for C)
 The rate you can set your Defend as well as the rate your attacks go out is determined by DEX.
+Requires you to be within range of your enemy.
 
 Wireless bit flip attacks (sub-Ghz) operate on a frequency range and can be defended against by altering your own frequency.  
-The rate you can change your frequency for attacking or defending is determined by DEX.
+The rate you can change your frequency for attacking or defending is determined by DEX.  
+Affects the whole field, but gets weaker the further the target is.
 
 Data Overload and Data Drain are counterparts to oneanother.  
-A Drain can defend against an Overload mid-battlefield and vice versa by cancelling eachother out upon impact.
+A Drain can defend against an Overload mid-battlefield and vice versa by cancelling eachother out upon impact.  
 
-IR and Audio attacks primarily affect the user, not the .zeed
+IR and Audio attacks primarily affect the user, not the .zeed, by glitching or overloading their interface hardware.   
+They are defended against by running User Scripts, which are customizations done to the client that nullify certain types of glitch attack.
 
 Equations are complex attack and defense sequences run as a single command and applied at the same time.  
 They are installed from RFID or Scripts as Equipment and their contents can be seen by everyone in the battle as it's used.  
