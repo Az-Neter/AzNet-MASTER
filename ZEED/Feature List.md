@@ -43,3 +43,5 @@
 -pgp key assigned to each. private key hidden and innaccessible to user, public key used to sign chats and mails
 
 -Contacts app for interfacing with online functions and local chat
+
+-Safe Mode that locks all wireless functions from being used. Prevents leveling and training also.
