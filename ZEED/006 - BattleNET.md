@@ -1,4 +1,4 @@
-The Combat System (name WiP) is hosted as a user-run server with a public or local IP and port
+The BattleNET is hosted as a user-run server with a public or local IP and port
 
 The Client program connects to the combat server when specified with port and ip
 
