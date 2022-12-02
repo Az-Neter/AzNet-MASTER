@@ -14,3 +14,4 @@ Becomes
 11
 
 Renamed from zeed.zeed to F01.zeed (using Test Protocol as Memory NFC)
+zeed.zeed and F01.zeed text data is in HEX.
