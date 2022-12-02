@@ -4,6 +4,10 @@ These are the individual components required to make the system function as a wh
 
 -Egg Protocol (Firmware rule that controls the first stage of .zeed life)
 
+-First Hatching Protocol (Need to find out what of the 7 available bytes of NFC data can be programmed to do what, and why. Must retain some data that cannot be user edited (ie. first byte always has to be 0001) so that Protocols are Az-Distributed only (with some user-creation of rules possible)
+
+-Public Hatching Protocol (First release NFC data that everyone uses at the start.)
+
 -Combat Protocol (Controls how combat using hardware and wireless interfaces function. ie. When does hp go down, what is damge, etc)
 
 -Training Data Functions (Copy pwnagotchi here)
