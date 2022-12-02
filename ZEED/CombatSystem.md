@@ -3,6 +3,7 @@ The Combat System (name WiP) is hosted as a user-run server with a public or loc
 The Client program connects to the combat server when specified with port and ip
 
 Data is pushed from server to local client program; Server cannot be altered by client, client only shares data that already exists locally
+(ie. server is just a throughpoint for direct connecting two or more clients over the net)
 
 Any number of .zeed should be able to connect and choose targets and allies at will
 
