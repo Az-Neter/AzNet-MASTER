@@ -6,7 +6,7 @@
 
 -Can interact with hardware & software
 
--Consumes data from files as 'food' to grow
+-Consumes data from files as 'food' to grow (overwrites 1's in file with 0's, adds 1's to itself)
 
 -Can interact with others of its kind
 
