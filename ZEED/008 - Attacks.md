@@ -49,6 +49,7 @@ APEX - 5
 
 Every 1 in the .zeed's BIN is a single point of HP.  
 If no more bits remain, the entity can no longer exist.  
+
 Utilizes the hexadecimal values of the BIN to determine what attacks can and cannot be used  
 (ie. an A5 byte in the binary means you can use Audio attack. Note 'hex value of BIN' is NOT 'HEX' as described in definitions {the user-editable .zeed file}, but instead refers to the actual BIN, which is diplayed as binary digits.  
 That means even 0s are used when calculating the 'hex of BIN' for deciding attacks, whereas the HEX is just pure user-editable hexadecimal which doesn't ac count for all 0's displayed on screen.
