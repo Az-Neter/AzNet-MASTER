@@ -54,3 +54,6 @@ Utilizes the hexadecimal values of the BIN to determine what attacks can and can
 (ie. an A5 byte in the binary means you can use Audio attack.)  
 Note 'hex value of BIN' is NOT 'HEX' as described in definitions (the user-editable .zeed file), but instead refers to the actual BIN, which is diplayed as binary digits as pixels.  
 That means even 0s are used when calculating the 'hex of BIN' for deciding which attacks are possbile, whereas the HEX is just pure user-editable hexadecimal and doesn't account for all 0's displayed on screen.
+
+Hatching Protocols are not applied while in combat. Instead, Training Data is used.  
+Training Data is generated in Training Mode, during which a user instructs their .zeed to perform an action, and it attempts to get better at replicating that action under desired circumstances.
