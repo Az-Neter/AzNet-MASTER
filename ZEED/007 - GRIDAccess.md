@@ -15,7 +15,7 @@ Players should be able to write their own GRID Protocols to perform various func
 
 A .zeed that is on GRID while its user is offline has its Hatching Protocols reenabled, allowing it to function autonomously.
 
-.zeed that get lost because of this are sent beyond the Blackwall to live out their remaining existence.
+.zeed that get lost because of this are sent beyond the Blackwall to live out their remaining existence. (done by admins or hunter players, NOT autonomously)
 
 .zeed CAN eat eachother on grid, if their protocol allows for it. They can also engage in any type of combat their training data normally allows.
 
