@@ -4,6 +4,7 @@ Potential options for how to generate the Name of a .zeed
 Take the First character of the Hatching Protocol (from SAQ of the NFC, half of one byte in hex)  
 Combine with the first byte of hex taken from a hatched .zeed   
 (would have to retroactively rename the file, could start with egg.zeed instead of writing new data from firmware. Allows for special eggs later)  
+
 Example:  
 NFC Test Protocol = FF (SAQ) - FF FF (ATQA) - FF FF FF FF (UUID)  
 Hatched .zeed =   
