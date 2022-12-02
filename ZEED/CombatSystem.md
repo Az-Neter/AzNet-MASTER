@@ -9,7 +9,7 @@ Any number of .zeed should be able to connect and choose targets and allies at w
 
 Should integrate with Az-run mail as well as allowing its own local-server mail with sync feature for commiting offline info to public
 
-During combat damage is pushed to .zeed in real time
+During combat damage is pushed to .zeed in real time (can edit HEX locally during combat as well as watch the effects of combat on HEX and BIN)
 
 Server owner can set rules and alternate gamemodes
 
