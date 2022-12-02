@@ -12,3 +12,8 @@ Hatched .zeed =
 01 01  
 
 Filename = F01.zeed
+
+
+
+-Option Two:
+Hex or Binary to ASCII converter run on hatched .zeed
