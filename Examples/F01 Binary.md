@@ -22,3 +22,5 @@ Becomes
 
 Renamed from zeed.zeed to F01.zeed (using Test Protocol as Memory NFC)  
 zeed.zeed and F01.zeed text data is in HEX.
+
+Memory Protocol then applies its functions to BIN (NOT to HEX)
