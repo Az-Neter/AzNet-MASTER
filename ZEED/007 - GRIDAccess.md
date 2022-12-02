@@ -1,4 +1,4 @@
-For a .zeed to access the GRID, it must be fully sent to the server, thus leaving no copy of it on the users device. 
+For a .zeed to access the GRID, it must be fully sent to the server, thus leaving no copy of it on the users device.  
 This prevents users from having two alternate copies of the same .zeed.
 
 While on GRID, the .zeed looks like how it would in BIN, and its HEX is not editable (ie. it must be taken off server to edit)
