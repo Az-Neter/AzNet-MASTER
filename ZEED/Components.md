@@ -4,6 +4,10 @@ These are the individual components required to make the system function as a wh
 
 -Egg Protocol (Firmware rule that controls the first stage of .zeed life)
 
+-Combat Protocol (Controls how combat using hardware and wireless interfaces function. ie. When does hp go down, what is damge, etc)
+
+-Training Data Functions (Copy pwnagotchi here)
+
 -HASH (Firmware rule that controls food and DEX correlation to BIN, visible to enduser as a digit or string)
 
 -Bitrate (Misnomer, actually Bit Rot. Simple equation in firmware to randomly flip bits in BIN over time. Should be able to be changed dynamically by .zeed on SD. Not visible to user)
