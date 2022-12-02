@@ -4,9 +4,9 @@ The Client program connects to the combat server when specified with port and ip
 
 Data is pushed from server to local client program; Server cannot be altered by client, client only shares data that already exists locally
 
-Any numder of .zeed should be able to connect and choose targets and allies at will
+Any number of .zeed should be able to connect and choose targets and allies at will
 
-Should integrate with Az-Run mail as well as allowing its own local-server mail with sync feature for commiting offline info to public
+Should integrate with Az-run mail as well as allowing its own local-server mail with sync feature for commiting offline info to public
 
 During combat damage is pushed to .zeed in real time
 
