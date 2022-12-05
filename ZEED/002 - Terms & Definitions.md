@@ -8,7 +8,7 @@ Training = Lightweight neural net built from training data. Training data is gai
 
 Safe Mode = Function to lock all wireless capabilities to prevent training data from getting user in trouble with the Law
 
-Combat System (Name WiP) = A user-run server which allows multiple .zeed to connect and gain levels through pvp or pve interactions. Addon to GRID.
+BattleNET = A user-run server which allows multiple .zeed to connect and gain levels through pvp or pve interactions. Addon to GRID.
 
 Chat = Local p2p Sub-Ghz, IR and NFC wireless hardware interface system to share text data and user contact information
 
