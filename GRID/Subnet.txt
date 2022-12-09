@@ -1,0 +1,11 @@
+The Subnet is an Access layer located beneath the grid.
+It is where various grid protocols take place.
+NPCs that run the functions of the Grid live here, and user messages broadcast here.
+This is also the entry-layer for user AP nodes and guild hidden folders, as well as the relay point for the Chaos.Gate System.
+Normally players do not have access to the Subnet. 
+Gaining access grants extreme privelidges and defending against subnet intrusion requires constant awareness of the presence of its functions.
+
+(Non public info)
+To gain access to the subnet users must gatehack their AP or a chaos gate on grid using a virus.core. the core is used in the process.
+From here users can intercept PMs and access the database of server-held pms, warp directly into guild hidden folders, and scan the entire subnet for active IPs.
+Scanning the subnet will not show users with a VPN (to see these users you must still scan individual ports on grid one by one until you find an open port or know the guild IP in which they're connected)

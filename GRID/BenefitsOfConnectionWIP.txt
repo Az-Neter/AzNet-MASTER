@@ -1,0 +1,9 @@
+Staying Connected to the Grid has numerous benefits, even if you aren't actively playing;
+
+-Data Crops only grow when connected to the Grid
+-Credit Miners only run when connected the the Grid
+-Contributes active CPU to guild @homes
+
+Downsides
+-Your user IP may potentially be hackable. Best to keep security bots running to prevent intrusion.
+-Data crops may spawn data bugs that try to eat your files. Keep a bot running that targets and deletes them as they're nothing more than a nuisance.

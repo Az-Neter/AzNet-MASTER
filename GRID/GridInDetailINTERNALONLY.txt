@@ -1,0 +1,174 @@
+Open Terminal
+Do telnet server:port (undecided)
+First login Screen shows
+-Welcome Splash
+-Select Name
+-Select Home Network (if applicable)
+Server creates RSA keypair, downloads private key to your file system.
+Called on when logging in (auto)
+
+Public key is kept on server and used as your contact info in game (can be sent to other players to see your info and confirm your transmissions and presence)
+
+Login shows filesystem replica with some select folders and programs
+Folders are editable, scripts writable with a less-powerful bash interpreter, files can be created and saved
+This fake filesystem exists as a folder on your system
+
+Launching 'Access Point' (AP) program in filesystem takes you to ASCII-based 2D grid world
+Second screen opens (with filesystem to the left side, ctrl+f & ctrl+a to switch between them)
+
+'AP' spawns you into your 'root folder' with three exits: two 'Data Fortresses' (DF) and one 'AP-OUT'
+
+AP-OUT leads directy to your chosen Home Network (Core Network only at first)
+
+The two DF are entrances into your root folder from the outside world, accessible via your IP Address.
+They each have 3 AP-IN ports as well as 1 port directly to your root folder
+They are protected by user-made bot scripts that run automatically to prevent intruding entities
+The interiors can be customized to be more difficult to assault
+
+Your root folder contains in-game representations of everything within your filesystem.
+Encrypt and hide your important files, keep useful software away from your enemies, and protect your investments and currency by building a strong data fortress and hiding your location. If an enemy gets in they can steal or tamper with what you have.
+
+Each player starts with 
+-1 filesystem & Root folder
+-2 Data Fortress AP-IN 
+-2 CPU/DF
+-1 RAM
+-2 Basic Bot types
+-1 @home Core
+-Basic Toolkit Software
+(Contact Book, Address Book, Key Sign, BBS, AP, Test Ground, Mail, Encryption, VPN, Wallet, Proxy)
+-Basic Scripts
+(Scan, Scram, Clone)
+
+Everything here is instanced on login and runs on your device. Logging out removes your root folder instance.
+Other players accessing your root folder is dependent on your network speeds.
+If someone has your last know good IP and attempts to upload new data to your root folder or is in the process of doing so when you disconnect, the data will be cached and uploaded to your folder on next login. 
+Use a scanner app to detect and delete such intrusions.
+
+Inside the Core Network are various locations, both Read-Only, and Read-Write.
+When you first boot into the Core from your root folder, you will be in the System Core, split into Sections B 1-4
+Section B1 houses info on getting started in the game
+Section B2 houses the trade hub
+Section B3 houses the guild hub
+Section B4 houses the Arena (future: Network hub)
+
+Next out are the Systems labeled Sections S 1-8. 
+They house various in-game representations of real-world data.
+Section S1 is our website
+Section S2 is our various chat services
+Section S4 are various links to cool external resources of various kinds (submit your own for review!)
+Section S5 is where our founders build their wonders
+Section S6 is SOMETHING USEFUL
+Section S7 is our VPN (works to represent in-game admin-run VPN for hiding User IP)
+Section S8 is our Test Zone (usually off limits during important tests)
+
+Sections inside the Core System are Read-Only. Nothing may be edited here except by admins and moderators
+
+Outside of the System is the Edge Zone
+Parts of the Edge are Read-Only and parts may belong to groups or individuals who have laid claim to them.
+
+Past the Edge is the Userspace
+It is Read-Write
+Those with sovereign claim may place a 100x100 structure called @home consisting of a small core and system structure, an internal root folder, and 4 Data Fortresses (one on each cardinal direction)
+These structures are expensive to maintain are are intended to be held by groups of two or more individuals working in tandem. 
+Running an @home utilizes the same resources as running expansions on your own internal filesystems.
+As long as the @home System and Core are intact, the only parts of the structure that can be directly damaged are the bots guarding its DF entrances. The base structure and edits inside the root folder cannot be destroyed until the Core is gone. If the System is destroyed but the Core remains, a decay period begins, forcing you to repair damages or allow the Core to decay.
+
+The number of @homes a group can have is limited to their SOMETHING SPECIFIC HERE
+@homes are hosted on the network and persist after logoff. 
+
+In-World players directly control only themselves, their tools, and a handful of Scripts (attacks)
+Weapons and Armor may be found in world and equipped
+Weapons come in Melee and Ranged, each having subcategories.
+Melee has;
+-Sharp or Blunt (Dmg Output)
+-Fast or Slow (Rate of Fire)
+Ranged has;
+-Long- or Short-Range (Distance + DPS)
+-Rapid- or Charge-Fire (RoF + DPS)
+
+Armor comes in 3 forms;
+Light, Medium, and Heavy
+Each has a modifier of Speed & HP
+
+Players may also indirectly control up to 5 NPC companions at any given time: 1 AI and 4 Viruses
+
+Viruses are simple one-character bots that move with you in-world according to a set of rules you decide upon. They cannot perform complex funtions, but they can keep you a little extra safe, hold or pickup your stuff, move across the world and interact with simple objects on your behalf.
+Viruses use the same HP system as players and can be neutralized.
+
+AI are complex five-character bots using a basic form of machine learning. 
+Simple AI are given out as part of packs. Custom AI may be made by users or distributed in Adventure Networks.
+Each character of the AI in game can perform its own tasks simultaneously while moving through the world as a single unit.
+Unless they learn or are programmed to do so, their size makes fitting into rooms difficult.
+AI cannot be killed unless all parts are removed and they lack the ability to self repair.
+Unrepairable AI may be sent behind the Blackwall to allow their evolution in the game while neglecting their use.
+
+Just past the Userspace is the No Access Zone. It is a small Read-Only section just before the Blackwall
+
+The Blackwall is a barrier at the edge of the game. 
+Outside of it are rogue bots and AI as well as discarded data left by the admins and players but not deleted.
+Players normally cannot move outside of it nor can anything come in.
+
+When exploring in the world, it's common practice to use your Scan Script on any nearby players or objects to see what they are.
+When a player is scanned it will show their 
+-Guild (if any), 
+-their IP, 
+-their Location, 
+-and their Current RAM
+
+Your IP is the address used to access your Data Fortress. 
+You may give this to other players so they can visit your root folder (useful for organizing events, trades or hangouts)
+You can use a VPN to hide your IP so players who scan you will not immediately have access to your DF and root folder.
+All players may use the Core Network VPN which will set their IP to the Data Fortress on S7 in the System Core. It's easy to bypass this with the proper script however.
+Guilds may establish their own VPNs within DF inside Userspace and assign use of them to their members.
+Players may change their IP once per SOME REASONABLE TIME
+
+Your listed Location will either be the location of your VPNs Data Fortress or your Guilds location in Userspace (if no VPN)
+If no guild, then it shows your current grid location.
+Your location may be spoofed using a Proxy. 
+A proxy chains multiple VPNs together to obscure your location.
+All users have access to the CORE VPN Proxy Service, allowing you to make any destination always appear as though you're coming from S7.
+Any VPN you have access to may be used as a chain in your Proxy.
+
+From within your root folder you may have two 'Macros' set to your Access Point that allow you to quickly change locations.
+You may use them to set Warps to other locations (for instance, a quick warp to your guild, so you do not have to manually travel until you get to Userspace).
+One Macro is always accessible in map. The other is only accessible from your root folder AP.
+
+Hardware in your DF may be upgraded to allow better performance from your user, viruses, AI, and bots
+
+Benefits of a Guild:
+-Increased resource gathering for base maintenance 
+-group pvp & base defense
+-shared root folder with access to shared scripts & AP Macros 
+-hangout spot on Network
+-bragging rights
+-ikea-TECH (decoration & base design)
+
+Benefits to Guild for more members:
+-increased shared RAM
+-increased CPU per DF (CPU=Bot/DF 1:1)
+-more users in raids & building
+
+Chaos Gate???
+3-Word+Modifier code to warp you anywhere within the Network
+
+Special Scripts
+-Warp Gate Exploit
+-Data Drain
+-Gate Hack
+
+Items
+-Virus Core
+-AI Core
+-Component
+-Raw Data
+-Credits
+-nil
+-null
+-Data Seed
+-Corrupted Data
+
+Enemies
+-Data Bug
+-Bot (Broken, Core, Lost)
+-AI (System, Rogue, Lost, Broken)

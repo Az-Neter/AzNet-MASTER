@@ -1,0 +1,15 @@
+Can't get too convoluted
+(Not too many items, etc)
+
+All forks must be somewhat compatible
+
+Anything that breaks should be patched with the minimal amount of interference with other code 
+
+Users should have near limitless freedom overall (per server can be limited)
+
+Currency must stay consistent
+(Tokens possible for various things but exchange rates for all)
+
+AI should be restricted only by their users
+
+User creations should be seamlessly integrated in a way that does not break any of the above limitations

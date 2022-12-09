@@ -1,0 +1,13 @@
+Guilds allow players to group together for new exploits and adventures.
+Being in a guild bestows you a number of features;
+
+-user buildable @home Servers on Grid, maintained by your members and visitable by anyone. Used as your guild headquarters and bestows new features.
+-@home raiding & pvp between guilds
+-@home VPN allowing users to hide their IP and immediately spawn on grid at their HQ
+-Shared guild root folder for distributing custom software to your members
+-Shared guild RAM allowing all members access to guild software when using their @home VPN
+-Shared resource gathering
+-Private chat relay on subnet (makes pms harder to track & crack)
+-guild key for shared message & file encryption
+-requires 2 members to form (one admin, one manager)
+-additional members online increase @home CPU by 1 core

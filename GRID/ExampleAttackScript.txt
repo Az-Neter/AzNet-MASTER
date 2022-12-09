@@ -1,0 +1,13 @@
+ls
+(Scans for nearby targets, will show users bots viruses & bugs, -a will show items & NPCs)
+
+var set @ls -output target
+(Sets variable called 'target' using entire output from 'ls'. Marks all nearby entities red)
+
+Send path to target -near
+(Sends the character keys required to path you to nearest target. 'Path' is automatic and can easily break or be manipulated via enemy location in relevance to your own)
+
+if target -in-range  send space
+Or
+target -in-range="true" send space
+(Attacks if the target is within 1 tile)

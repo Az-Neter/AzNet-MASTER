@@ -1,0 +1,22 @@
+Private & Public keys for user are generated on first login
+
+Private key downloaded to user, public kept on server
+
+Private key presence automatically logs in user to grid on telnet or ssh connection
+
+Public key contains information about user:
+Name:
+Guild:
+Guild or Grid IP:
+Bio:
+Quick Verify Keys (qr, hotlink, text)
+
+Private key can be used to encrypt messages to single users.
+Rooms can be made containing multiple public keys allowing for decryption between all private key holders in room.
+
+Public keys are automatically shared between guild members, can be shared manually to users for identity verification and contact info for address book
+
+Keys can be confirmed or uploaded via landing site to add to public key list
+
+Login encryption must be strong
+Text/file encryption must be reasonably crackable

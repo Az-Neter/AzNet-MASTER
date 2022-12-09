@@ -1,0 +1,299 @@
+<h2>The ~Az:Net//GRID</h2>
+
+<br>
+
+*A multi-user text interface for the exploration & evolution of alternate states of living existence*
+
+<br>
+
+**Author**: Az Neter
+**Contributors**: Shift-Runstop, Luissen, 
+
+<br>
+
+<h3>TOC:</h3>
+
+<br>
+
+-**Overview**
+  --Concept
+*An isolated network game used to design and interact with custom programs as well as other users in a gamified player-versus-player coding playground.
+Runs in a shell terminal and is themed off of media like Tron and Digmon.*
+
+<br>
+
+  --Genre
+*2D Cyberpunk Ascii MMORPG*
+
+<br>
+
+  --Target Audience
+*Programmers, Scientists, AI Designers, Artists, Writers, Roleplayers, PvP Fans, FOSS Enthusiasts, Lonely People*
+
+<br>
+
+  --Flow Summary
+*Log In via Telnet or SSH or Client > User Sees Terminal and nothing else > Use of terminal grants access to various software > Use of Access Point in Terminal shows User Browser Window > User Browser Window Gameplay progresses mostly like a regular MUD > Commands entered via Terminal also effect Browser Window gameplay > Fully logging onto the server via Access Point allows interaction with players and world*
+
+<br>
+
+  --Look & Feel
+*16-bit 2D ASCII*
+
+<br>
+
+-**Scope**
+  --Items
+*All Items exist as files with the syntax name.type
+Filetypes include:
+.core
+.ai
+.bot
+.worm
+.rat
+.txt
+.book
+.config
+.disk
+.chip
+.seed
+.data
+.item
+.sh
+.credit
+Filenames can be User-Generated or read-only. 
+Each item type interacts in different ways when activated by a User.
+Some items can have their info edited via the Terminal while others cannot. All items are tradable.
+All items include a hashed form of their info kept at the bottom of the files text that is compared to data saved on the server. If data does not match, file hash is either updated or rejected depending on established variables (such as banned code strings, broken read-only items etc.)*
+
+<br>
+
+  --NPCs
+*World NPCs can be user-made via a submission process. Other NPCs include the various companion types such as AI, Bot and Virus.
+Bot and Virus NPCs can exist in world or in a user root folder. 
+AI can exist only in world or in a users TestBench folder.
+World NPCs may offer quests, loot or various services.
+User NPCs may be left on server if separated from their user during combat or exploration. 
+World NPCs are static to their paths. User NPCs are made by user and contributors and traded among the community.*
+
+<br>
+
+  --Locations
+*New worlds can be hosted easily and built from scratch or made to replicate the 'Core' server.
+The Core Network is the primary map distributed and hosted by Az:Net.
+It consists of an ASCII grid that supports up to 500 active players. 
+The Grid is split into sections consisting of the Core, the System, the Edge, Userspace, the Blackwall, and Sea of Data.
+The map also includes an area called 'Subnet' accessible via certain locations on the Grid and used for various RP functions such as providing a means of intercepting mail, hacking other user root folders, and traveling unseen.
+The Subnet offers access to 'Chaos Gates', a warp mechanic using three keywords to place yourself at another destination. Using the Subnet is the only way to teleport around the Grid.*
+
+<br>
+
+-**Gameplay & Mechanics**
+  --Progression
+*Log in > Write or Edit Code > Join the Core > Various World Interactions
+Anything else is up to the players and built as we go.*
+
+<br>
+
+  --Challenge Structure
+*Other Players present the primary means of challenge. The code you acquire or write is your only means of combating enemy efforts to improve your own standing on the Grid.*
+
+<br>
+
+  --Objectives
+*Only what the user makes for themselves
+Tasks can include:
+Mining Credits
+Writing or Editing Code
+Trading with Users
+Chatting with Users
+Experimentation with AI
+Data Bug Rangling
+Crafting
+Combat (PvE or PvP)
+File Management
+Various Guild Gameplay options*
+
+<br>
+
+  --Play Path
+*There are no user classes and no restrictions on most activities. Once you complete the initial login tutorial, your hand will no longer be held and you can do as you please.*
+
+<br>
+
+  --Crafting
+*All basic non-user-made items may be combined to make new items using a 3-part crafting system.
+Secondary tiers of items may be crafted by combining intial tiers.*
+
+<br>
+
+  --Scripting
+*Shell script-style programs can be written and then equipped in certain weapons to use their effects on grid. Shell scripts may also be run in user and guild root folders for automation purposes. When run in a root folder, shell scripts use a CPU slot.*
+
+<br>
+
+  --Trading
+*All items may be freely traded between players. There is a marketplace to set up auctions and a bazaar to set up shops.*
+
+<br>
+
+  --Guilds
+*Players may join together to form guilds. Guilds may build structures on the network called @home that provide a shared root folder to all members.*
+
+<br>
+
+-**Physics**
+  --Movement
+*Players can move with either W S A D or L R U D. In the terminal you can use 'send "key"' to move via scripting, either manually or using an item.*
+
+<br>
+
+  --Item Interaction
+*Objects on the ground can be moved by double clicking them while within one tile of them. They stay next to you in world while moving.
+Files can be moved in root folder using terminal commands.
+You can load a file into your RAM to take off grid by using the 'load' command*
+
+<br>
+
+  --Objects
+*Objects may consist of traps, buildings, random items and world detail, and other miscellaneous non-interactable baubles.*
+
+<br>
+
+  --Chat Services
+*Players may chat with each other via pm in game using a pseudo email system. This system is hackable by other players.*
+*There is a global chat system consisting of 'radio' channels from 1-100. Messages to global are sent by first joining a channel with '/join #' and then doing '/# Message'*
+
+<br>
+
+  --Terminal
+*Most software available to the linux kernel is available in game.*
+
+<br>
+
+  --Combat
+*Combat consists of basic 2D Hack 'N Slash gameplay between individuals and groups interspersed with hacking via our unique mechanics*
+
+<br>
+
+-**Screen Flow**
+  --Screen Descriptions
+
+<br>
+
+  --Main Menu
+
+<br>
+
+  --Options
+
+<br>
+
+  --World
+
+<br>
+
+  --User
+
+<br>
+
+  --Group
+
+<br>
+
+-**User Settings**
+
+<br>
+
+  --Logging In
+*Logging in is done automatically by having your keyfile located in your working directory upon launching the game. If the server does not log you in automatically, you can login using 'COMMAND HERE'*
+
+<br>
+
+  --Saving
+*To save your progress, you must send a '/save' command while standing atop a save point.
+You root folder allows you to save at any time.
+While on Grid, save points are only available at specific locations (like the CORE VPN)
+If you do not save before you logout, your files and progress will not be recorded onto the server.*
+
+<br>
+
+  --Guilds
+
+<br>
+
+-**Interface**
+
+<br>
+
+  --HUD
+
+<br>
+
+  --Map
+
+<br>
+
+  --CLI
+
+<br>
+
+  --Menus
+
+<br>
+
+-**Controls**
+
+<br>
+
+  --User
+
+<br>
+
+  --World
+*The world is contributed to by users of the game. Some zones will allow player-building, while others will have a submission process.
+The central core and system zones as well as some event zones will be designed by the Admin.*
+
+<br>
+
+-**Audio** 
+
+<br>
+
+  --NPC Sounds
+*Each NPC will make a group of unique 8-bit sounds. No more than 4 sounds may be bound to a single NPC*
+
+<br>
+
+  --Combat Sounds
+
+<br>
+
+  --Music
+*Certain locations will have generative chiptune soundtracks made via the SunVox api as their world music.
+Other locations may have static looping tracks.
+The CORE will be a generative input-based chiptune utilizing input from all connected players and bots.
+The EDGE will use heavy metal music
+USERSPACE will play our entry tune.
+The BLACKWALL will play distorted loud and uncomfortable sounds that may damage speakers
+the SEA OF DATA will play random and intermittent blips.
+@HOMEs will allow generative input-based themes that can be chosen from.
+Available themes are: Acoustic, Metal, Digital,
+Each user may set their own single track for their Root Folder. 
+The SUBNET will only play UI and EFX sounds.*
+
+<br>
+
+-**Asset List**
+
+<br>
+
+  --Logos
+
+<br>
+
+      ----Extra Services
+
+<br>
+
+      ----User Logos
